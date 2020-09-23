@@ -3,7 +3,7 @@
 const gamefield=document.querySelector('.game_field')
 const Rect=gamefield.getBoundingClientRect();
 const carrot_size=80
-const carrot_count=25
+const carrot_count=5
 const timer=document.querySelector('.timer');
 const popuptext=document.querySelector('.pop_up_text');
 const popup=document.querySelector('.pop_up');
@@ -179,3 +179,5 @@ function playsound(sound){
 function stopsound(sound){
     sound.pause();
 }
+
+//
